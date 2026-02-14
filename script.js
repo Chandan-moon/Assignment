@@ -35,7 +35,7 @@ function addStudent(e) {
         return;
     }
 
-    /* Duplicate ID Check */
+    /* Duplicate ID Check  */
 
     const duplicate = stud.find(
         (student, index) => student.id === id && index !== editIndex
@@ -43,6 +43,7 @@ function addStudent(e) {
 
     if (duplicate) {
         alert("Student ID already exists! Please use a different ID.");
+        
         return;
     }
 
