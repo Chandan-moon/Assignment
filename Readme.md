@@ -21,4 +21,9 @@ Student Registration System built using HTML, CSS, and JavaScript.
 • Contact must be minimum 10 digits  
 • Duplicate Student ID not allowed  
 
+## commit
+
+• Added New Assignment project 
+• Duplicate Student ID prevention 
+
 
