@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/*form Section */
+
+.section-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#formParent {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #667eea;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-1.5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Table Section */
+
+.section-2 {
+    flex: 2;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+    margin-bottom: 15px;
+}
+
+/* Table */
+
+.table-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 400px;
+
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.student-table tr {
+    text-align: center;
+}
+
+.student-table th {
+    background: #667eea;
+    color: white;
+    padding: 12px;
+
+}
+
+.student-table td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    border: 1px solid rgb(68, 67, 67);
+}
+
+.student-table tr:hover {
+    background: #f4f6ff;
+}
+
+
+/* Action Buttons */
+
+.edit-btn {
+    background: #28a745;
+    padding: 6px 10px;
+    margin-right: 15px;
+    width: 80px;
+}
+
+.delete-btn {
+    background: #dc3545;
+    padding: 6px 10px;
+    width: 80px;
+}
+
+
+
+/* Tablets */
+@media (max-width: 992px) {
+
+    .container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .section-1,
+    .section-2 {
+        width: 100%;
+    }
+
+    #formParent {
+        max-width: 100%;
+    }
+
+    .section-2 {
+        margin-top: 20px;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+
+    header {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    #formParent {
+        padding: 18px;
+        border-radius: 12px;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .section-2 {
+        padding: 15px;
+    }
+
+    .heading {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .table-container {
+        overflow-x: auto;
+    }
+
+    .student-table th,
+    .student-table td {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .edit-btn,
+    .delete-btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
