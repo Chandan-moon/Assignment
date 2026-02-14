@@ -30,3 +30,8 @@ Student Registration System built using HTML, CSS, and JavaScript.
 • Added New Assignment project 
 • Duplicate Student ID prevention 
 
+## commit
+
+• Added New Assignment project 
+• Duplicate Student ID prevention 
+
