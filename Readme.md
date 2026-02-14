@@ -1,4 +1,8 @@
 
+
+
+# GitHUb Link: https://github.com/Chandan-moon/Assignment 
+
 # Student Registration System
 
 Student Registration System built using HTML, CSS, and JavaScript.
@@ -8,7 +12,7 @@ Student Registration System built using HTML, CSS, and JavaScript.
 • Add Student  
 • Edit Student  
 • Delete Student  
-• Duplicate Student ID prevention 
+
 • Data saved in LocalStorage     
 • Responsive design  
 
@@ -21,4 +25,8 @@ Student Registration System built using HTML, CSS, and JavaScript.
 • Contact must be minimum 10 digits  
 • Duplicate Student ID not allowed  
 
+## commit
+
+• Added New Assignment project 
+• Duplicate Student ID prevention 
 
